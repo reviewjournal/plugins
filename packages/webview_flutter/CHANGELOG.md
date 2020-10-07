@@ -1,3 +1,7 @@
+## 1.0.2+2
+
+* Support inline media on iPhone if the HTML5 content requests it.
+
 ## 1.0.2+1
 
 * Enable zoom in android devices.
