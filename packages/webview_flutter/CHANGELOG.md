@@ -1,3 +1,7 @@
+## 1.0.2+1
+
+* Enable zoom in android devices.
+
 ## 1.0.2
 
 * Android Code Inspection and Clean up.

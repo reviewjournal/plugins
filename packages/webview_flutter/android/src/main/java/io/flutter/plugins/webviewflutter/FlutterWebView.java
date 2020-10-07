@@ -95,6 +95,11 @@ public class FlutterWebView implements PlatformView, MethodCallHandler {
     webView.getSettings().setDomStorageEnabled(true);
     webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
 
+    // Allow zoom and hide the zoom in and zoom out buttons.
+    webView.getSettings().setSupportZoom(true);
+    webView.getSettings().setBuiltInZoomControls(true);
+    webView.getSettings().setDisplayZoomControls(false);
+
     // Multi windows is set with FlutterWebChromeClient by default to handle internal bug: b/159892679.
     webView.getSettings().setSupportMultipleWindows(true);
     webView.setWebChromeClient(new FlutterWebChromeClient());
